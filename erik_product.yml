@@ -7,4 +7,4 @@
   - debug: msg="Hello, {{favorite_color}} world!"
   - set_stats:
       data:
-        expose_to_cloud_redhat_com_after_data: "yay"
+        expose_to_cloud_redhat_com_after_data: "{{favorite_color}}"
